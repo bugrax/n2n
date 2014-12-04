@@ -1,0 +1,9 @@
+#
+# n2n tap_device creator
+# compilation and run procedure
+#
+
+$ make
+$ sudo ./test
+
+
