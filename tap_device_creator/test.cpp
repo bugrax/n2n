@@ -26,6 +26,7 @@ int tuntap_open(char *dev, char* HWaddress, char* IPaddress, char* netmask, int 
 	char buf[N2N_LINUX_SYSTEMCMD_SIZE];
 	int rc;
 
+
 	fd = open(tuntap_device, O_RDWR);
 	if(fd < 0) {
 		printf("ERROR: ioctl() [%s][%d]\n", strerror(errno), errno);
